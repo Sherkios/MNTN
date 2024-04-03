@@ -1,0 +1,74 @@
+.footer {
+  padding-bottom: 120px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__info-wrapper {
+    max-width: 303px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__logo {
+    font-size: 32px;
+  }
+
+  &__text {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8em;
+  }
+
+  &__policy {
+  }
+
+  &__navigates {
+    display: flex;
+    gap: 212px;
+  }
+
+  &__navigate {
+  }
+
+  .navigate {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Gilroy;
+  
+    &__title {
+      color: var(--sub-color);
+      font-size: 24px;
+      line-height: 1.3em;
+    }
+  
+    &__links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    &__link {
+      font-size: 18px;
+      font-weight: 500;
+  
+      transition: all 0.5s ease;
+  
+      &:hover {
+        color: var(--sub-color);
+      }
+    }
+  }
+}
+
